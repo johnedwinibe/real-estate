@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Details = () => {
   return (
-    <div>
-      <h2>Details Title</h2>
-      <p>This is the details content.</p>
+    <div className="flex flex-col items-center min-h-screen bg-white p-4">
+      <h2 className="text-2xl font-bold mb-4">Wedding Details</h2>
+      <p>
+        This is the details content.
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Details
+export default Details;
